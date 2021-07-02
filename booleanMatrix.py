@@ -22,7 +22,7 @@ def booleanMatrix(matrix):
 r,c=map(int,input().split())
 m=[]
 for i in range(r):
-  m.append(list(map(int,input().split()))
+  m.append(list(map(int,input().split())))
 booleanMatrix(m)
 for i in range(r):
   for j in range(c):
